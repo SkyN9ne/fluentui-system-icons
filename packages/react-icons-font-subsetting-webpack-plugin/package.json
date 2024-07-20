@@ -27,7 +27,7 @@
     "@fluentui/react-icons": "*"
   },
   "dependencies": {
-    "subset-font": "^1.4.0"
+    "subset-font": "^2.3.0"
   },
   "peerDependencies": {
     "webpack": ">=5.0.0"
