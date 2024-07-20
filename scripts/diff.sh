@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # This script extracts files changed between two specified Git commit IDs and performs various file operations.
-# Usage:
-# 1. Make sure this script is executable: `chmod +x ./scripts/diff.sh`
+#Usage:
+# 1. Make sure this script is executable: `sudo chmod +x ./scripts/diff.sh`
 # 2. Run the script: `./scripts/diff.sh`
 # 3. The script will prompt you to enter two commit IDs.
 #    - `commit_id_from` (inclusive): The starting commit ID for the diff operation.
@@ -28,9 +28,9 @@ rm -rf ../all_files_svg
 rm -rf ../assets
 
 # Create new directories
-mkdir ../all_files
-mkdir ../all_files_svg
-mkdir ../assets
+mkdir -p -v ../all_files
+mkdir -p ../all_files_svg
+mkdir -p -v ../assets
 
 # Extract the tar file into the assets directory
 tar -xvzf ../assets.tgz -C ../assets
