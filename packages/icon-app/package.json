@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@fluentui/react-icons": "*",
-    "@griffel/react": "^1.0.3",
+    "@griffel/react": "^1.5.24",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
